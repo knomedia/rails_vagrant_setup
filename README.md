@@ -16,9 +16,8 @@ $ gem install puppet
 $ gem install librarian-puppet
 $ rails new your_project --database=postgresql
 $ cd your_project
+$ cp -r ../rails_vagrant_setup/!(.git|README.md) .
 ```
-
-Copy files from this project (without the `.git` and this `README.md` file) into your new project
 
 Edit `manifests/defaults.pp` to change out db names and users (TODO: build something to automate this)
 
