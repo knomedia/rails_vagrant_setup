@@ -1,0 +1,24 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    acme/janus (0.1.0)
+    example42/bundler (2.0.13)
+      example42/puppi (>= 2.0.0)
+    example42/puppi (2.1.9)
+    puppetlabs/apt (1.1.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/firewall (0.3.0)
+    puppetlabs/postgresql (2.2.1)
+      puppetlabs/apt (< 2.0.0, >= 1.1.0)
+      puppetlabs/firewall (>= 0.0.4)
+      puppetlabs/stdlib (< 5.0.0, >= 3.2.0)
+      ripienaar/concat (>= 0.2.0)
+    puppetlabs/stdlib (4.1.0)
+    ripienaar/concat (0.2.0)
+
+DEPENDENCIES
+  acme/janus (>= 0)
+  example42/bundler (>= 0)
+  puppetlabs/apt (>= 0)
+  puppetlabs/postgresql (>= 0)
+
