@@ -130,6 +130,9 @@ exec { "install_bundler":
   cwd => $home,
   path => "/usr/local/bin:/usr/bin/:/bin/"
 } ->
+package { 'vim-gtk':
+  ensure => installed
+} ->
 class { 'janus':
 } ->
 janus::install { 'vagrant': }
